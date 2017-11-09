@@ -179,6 +179,7 @@ hr.small {
   font-size: 75px;
   text-align: center;
   padding-top: 20px;
+  background-color: rgb(82,112,163)!important
 }
 
 
@@ -194,6 +195,9 @@ hr.small {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+.call-to-action {
+    background-color: rgb(82,112,163)!important
 }
 
 
