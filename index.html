@@ -178,8 +178,12 @@ Created using: HTML, CSS, JQUERY, Bootstrap, HANDLEBARS, Node.js, Express, Mongo
     <!-- Call to Action -->
     <aside class="call-to-action bg-primary text-white">
       <div class="container text-center">
-        <h3>More Information.</h3>
-        <a href="img/Max-Mazzone-Resume.pdf" download="img/Max-Mazzone-Resume.pdf" class="btn btn-lg btn-light">Resume</a>
+        <h3 class="btn-link" data-toggle="collapse" data-target="#resume-div" >Resume</h3>
+        <div id="resume-div" class="collapse">
+          <embed src="img/Max-Mazzone-Resume.pdf" width="700" height="750" type='application/pdf'>
+            <br>
+          <a href="img/Max-Mazzone-Resume.pdf" download="img/Max-Mazzone-Resume.pdf" class="btn btn-xs btn-light">download</a>
+        </div>
         <!-- <a href="#" class="btn btn-lg btn-dark">Look at Me!</a> -->
       </div>
     </aside>
