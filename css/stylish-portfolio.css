@@ -66,6 +66,16 @@ hr.small {
   max-width: 100px;
 }
 
+#handlebars {
+  height: 100px;
+  width: 100px;
+}
+
+#ember {
+  height: 100px;
+  width: 100px;
+}
+
 
 /* Side Menu */
 
